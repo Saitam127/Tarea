@@ -8,8 +8,7 @@ namespace _12_ObjectLifeTime
 {
     class Program
     {
-        //lesson 16 video : More about classes and Methods
-        //constructors, overloaded constructors, static, garbage collector, references 
+   
         static void Main(string[] args)
         {
             Car myCar = new Car();
@@ -23,7 +22,7 @@ namespace _12_ObjectLifeTime
             myCar.Color = "Silver";
             */        
 
-            //overloaded constructor used with parameters
+    
             //Car myThirdCar = new Car("Ford", "Escape", 2005, "White");
 
             /*
@@ -71,7 +70,7 @@ namespace _12_ObjectLifeTime
             /*
             public Car()
             {
-                // You could load from a configuration file, a database, etc.
+         
                 this.Make = "Nissan";
             }
 
