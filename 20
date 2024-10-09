@@ -14,7 +14,7 @@ namespace _20_HandlingException
             try
             {
                 string content = File.ReadAllText
-                (@"C:\Users\Zahid\Documents\Visual Studio 2015\Projects\BTaborCodingFundamentals\20-HandlingException\Exampl.txt");
+                (@"C:\Users\Saitam\Documents\Visual Studio 2024\Projects\softwares\20-HandlingException\Exampl.txt");
                 Console.WriteLine(content);
             }
             catch(FileNotFoundException ex)
