@@ -8,7 +8,7 @@ namespace _18_UnderstandingLINQ
 {
     class Program
     {
-        //2 styles : query syntax similar to sql; method synstax familiar to c# devs
+
         static void Main(string[] args)
         {
             List<Car> myCars = new List<Car>() {
@@ -19,7 +19,7 @@ namespace _18_UnderstandingLINQ
                 new Car() { VIN="E5", Make="BMW", Model="55i", StickerPrice=57000, Year=2010}
             };
 
-            //LINQ Query
+        
             /*
             var bmws = from car in myCars
                        where car.Make == "BMW"
@@ -35,8 +35,7 @@ namespace _18_UnderstandingLINQ
 
             */
 
-            //LINQ method
-            //lamba expressions - mini methods
+          
             //var bmws = myCars.Where(p => p.Make == "BMW" && p.Year == 2010);
 
             //var orderedCars = myCars.OrderByDescending(p => p.Year);
@@ -55,8 +54,7 @@ namespace _18_UnderstandingLINQ
 
             //Console.WriteLine(myCars.Sum(p => p.StickerPrice));
 
-            /*
-            foreach (var car in orderedCars)
+            /*   
             {
                 Console.WriteLine("{0} {1}", car.Year, car.Model, car.VIN);
             }
@@ -75,7 +73,7 @@ namespace _18_UnderstandingLINQ
             var newCars = from car in myCars
                        where car.Make == "BMW"
                        && car.Year == 2010
-                       select new { car.Make, car.Model }; //projection = selection new datatypes to project at runtime
+                       select new { car.Make, car.Model }; 
             Console.WriteLine(newCars.GetType());
             */
 
