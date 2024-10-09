@@ -20,7 +20,7 @@ namespace _15_AssembliesAndNamespaces
             Console.WriteLine(reply);
 
           
-            File.WriteAllText(@"C:\Users\Zahid\Documents\Visual Studio 2015\Projects\BTaborCodingFundamentals\15-AssembliesAndNamespaces\WriteText.txt", reply);
+            File.WriteAllText(@"C:\Users\Saitam\Documents\Visual Studio 2024\Projects\Software\15-AssembliesAndNamespaces\WriteText.txt", reply);
 
             Console.ReadLine();
         }
